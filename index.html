@@ -3,15 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/fontawesome.css" />
-    <title>BS Starter Template</title>
+    <link rel="stylesheet" href="./css/lightbox.min.css" />
+    <title>Showcase Website</title>
   </head>
   <body>
-    <h1><i class="fas fa-star"></i>Hello World</h1>
-    <button class="btn btn-primary">Submit</button>
+    <header class="header text-center position-relative vh-100">
+      <div
+        class="text-container d-flex flex-column justify-content-center align-items-center position-relative h-100"
+      >
+        <h5 class="fs-3 text-primary fw-bold text-uppercase">Hello, World.</h5>
+        <h1 id="typing-text" class="display-1 text-white fw-bold"></h1>
+        <p class="roles text-uppercase text-white fs-4">
+          <span>Full Stack Web Developer</span>
+        </p>
+        <a href="#about" class="btn btn-outline-light btn-lg mt-3">
+          <div class="d-flex">
+            <div class="me-3">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="text-start">
+              <span>More About Me</span>
+            </div>
+          </div>
+        </a>
+        <div class="social d-flex position-absolute gap-3">
+          <a href="#">
+            <i class="fab fa-twitter fa-2x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram fa-2x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin fa-2x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-facebook fa-2x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-youtube fa-2x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github fa-2x text-white"></i>
+          </a>
+        </div>
+      </div>
+    </header>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>

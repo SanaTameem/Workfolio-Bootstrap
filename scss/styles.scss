@@ -1,5 +1,34 @@
-$primary: yellow;
+.header {
+  background: #151515 url(../images/intro-bg.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
-body {
-  background-color: $primary;
+.header::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+.text-container{
+  z-index: 10;
+}
+
+.roles{
+  font-family: 'lora-regular', serif;
+}
+
+.header .social {
+  bottom: 50px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .header .roles{
+    font-size: 18px !important;
+  }
 }
